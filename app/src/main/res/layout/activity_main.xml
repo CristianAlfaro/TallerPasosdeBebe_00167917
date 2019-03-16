@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entran"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="@dimen/margin_all"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/init_conu_in"
+            android:textSize="@dimen/cont_size"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="@dimen/margin_all"
+            android:layout_marginBottom="@dimen/margin_all"
+            android:id="@+id/textIn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_text"
+            android:textSize="@dimen/text_size"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="@dimen/margin_all"
+            android:id="@+id/buttonIn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salen"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="@dimen/margin_all"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/int_cont_out"
+            android:textSize="@dimen/cont_size"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="@dimen/margin_all"
+            android:layout_marginBottom="@dimen/margin_all"
+            android:id="@+id/textOut"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_text"
+            android:textSize="@dimen/text_size"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="@dimen/margin_all"
+            android:id="@+id/buttonOut"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
